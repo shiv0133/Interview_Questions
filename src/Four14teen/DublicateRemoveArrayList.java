@@ -24,8 +24,8 @@ public class DublicateRemoveArrayList {
             System.out.println(var);
         }
         System.out.println("After removing duplicates present in list1 Arraylist....");
-        list1.clear();
-        list1.addAll(list2);
+        list1.clear();         // first clear the old m/m of array list........
+        list1.addAll(list2);      // hashset list se dobara element array list me add me kar die
         for (Integer var:list1){
             System.out.println(var);
         }

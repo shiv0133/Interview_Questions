@@ -27,6 +27,7 @@ public class SortingArrayListONE {
         Collections.sort(list);
 // printing the sorted ArrayList
         System.out.println("After Sorting: "+ list);
+
         for(String var:list){
             System.out.println(var);
         }

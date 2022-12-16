@@ -2,38 +2,38 @@ package NineTO10;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 public class CountEachWords {
     public static void main(String[] args) {
-        String string = "big black bug bit a big black dog on his big black nose";
-
+       // String string = "big black bug bit a big black dog on his big black nose";
+          String string = "Alice is girl and Bob is boy";
         System.out.println("original string::"+string +"\n");
         int count;
 
         //Split the string into words using built-in function
         String words[] = string.split(" ");
-        System.out.println("after spilit method::\n"+words+"\n");
+
 
         System.out.println("***************** HashMAp Concept ************************************");
         HashMap<String,Integer> map=new HashMap<>();
 
         for(String var:words){
-              if (map.get(var)==null){
-                   map.put(var,1);
+              if (map.containsKey(var)){
+                   map.put(var,map.get(var)+1);
               }
               else {
-                    map.put(var,map.get(var)+1);
+                    map.put(var,1);
               }
         }
         System.out.println(map);
-
-        Iterator<String> itr=map.keySet().iterator();
-
-        while (itr.hasNext()){
-            boolean temp =itr.hasNext();
-            if(map.get(temp)>1){
-                System.out.println(temp+"::"+map.get(temp));
+        System.out.println("*********** printing dublicate wordds**************");
+        for(Map.Entry<String,Integer> entry: map.entrySet() ){
+            if (entry.getValue()>1){
+                System.out.println(entry.getKey()+"::"+entry.getValue());
             }
         }
+
+
+        }
     }
-}

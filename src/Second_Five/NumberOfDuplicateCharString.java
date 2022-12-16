@@ -3,7 +3,7 @@ package Second_Five;
 public class NumberOfDuplicateCharString {
     public static void main(String[] args) {
         // in this program we have to find duplicate an elements
-            String string1 = "Great responsibility";
+            String string1 = "shivendra pratap singh";
             int count;
             //Converts given string into character array
             char string[] = string1.toCharArray();
@@ -18,7 +18,7 @@ public class NumberOfDuplicateCharString {
 
                         count++;
                         //Set string[j] to 0 to avoid printing visited character
-                        string[j] = '0';
+
                     }
                 }
                 //A character is considered as duplicate if count is greater than 1

@@ -11,8 +11,10 @@ public class HighestElementArrayList {
         list.add(18);
         list.add(13);
         list.add(15);
+        list.add(25);
 
         int highest= list.get(0);
+        int secondHighest=list.get(0);
 
         for(int i=1;i< list.size();i++){
             if(highest<list.get(i)){
@@ -20,6 +22,12 @@ public class HighestElementArrayList {
             }
         }
         System.out.println("Maximum element present is::"+highest);
+        for(int i=1;i<list.size();i++){
+            if(highest>list.get(i) && secondHighest<list.get(i)){
+                secondHighest= list.get(i);
+            }
+        }
+        System.out.println("Second highest element present is::"+secondHighest);
     }
 
 }
