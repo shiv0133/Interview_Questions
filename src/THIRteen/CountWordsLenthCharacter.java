@@ -1,3 +1,5 @@
+package THIRteen;
+
 public class CountWordsLenthCharacter {
     public static void main(String[] args) {
         int count;

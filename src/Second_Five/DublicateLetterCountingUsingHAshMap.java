@@ -20,8 +20,10 @@ public class DublicateLetterCountingUsingHAshMap {
                 map.put(var,1);
             }
         }
+        System.out.println("printing number of character of all letters..............");
         System.out.println(map);
-        System.out.println(map.entrySet());
+        System.out.println("*************************************");
+        System.out.println("printing only dublcates........" );
         for (Map.Entry<Character, Integer> entry:map.entrySet()){
 
             if(entry.getValue()>1){
