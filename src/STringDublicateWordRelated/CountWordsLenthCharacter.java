@@ -1,6 +1,8 @@
-package StringRelatedPrograms;
+package STringDublicateWordRelated;
 
 public class CountWordsLenthCharacter {
+
+    // here we count length of each word.....
     public static void main(String[] args) {
         int count;
         String str = "Shivendra pratap singh";

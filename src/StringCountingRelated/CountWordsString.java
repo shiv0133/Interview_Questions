@@ -1,4 +1,4 @@
-package StringRelatedPrograms;
+package StringCountingRelated;
 
 public class CountWordsString {
     public static void main(String[] args) {

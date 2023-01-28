@@ -1,4 +1,4 @@
-package StringRelatedPrograms;
+package StringCountingRelated;
 
 public class TotalCharStrings {
     public static void main(String[] args) {

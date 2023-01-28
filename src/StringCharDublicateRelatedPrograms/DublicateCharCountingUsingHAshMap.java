@@ -1,16 +1,18 @@
-package StringRelatedPrograms;
+package StringCharDublicateRelatedPrograms;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class DublicateLetterCountingUsingHAshMap {
+public class DublicateCharCountingUsingHAshMap {
     public static void main(String[] args) {
         HashMap<Character,Integer> map=new HashMap<>();
         String str="shivendra pratap singh";
+        str=str.toLowerCase();
         str=str.replace(" ","");
 
 
         char [] c=str.toCharArray();
+      //  System.out.println(c);
 
         for(char var:c){
             if(map.containsKey(var)){

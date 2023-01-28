@@ -1,11 +1,15 @@
-package StringRelatedPrograms;
+package StringCountingRelated;
 
 import java.util.Arrays;
 
 public class AnagramString {
     public static void main(String[] args) {
+
+        //anagram means here we compare two string the string have equal number
+        //  of characters  and same character but may be in different order.....
+
         String str1="Racing";
-        String str2="Carings";
+        String str2="Caring";
 
         str1=str1.toLowerCase();
         str2=str2.toLowerCase();
@@ -19,7 +23,7 @@ public class AnagramString {
 
             //here we have to compare both sorted character arrays...
                          boolean result =Arrays.equals(arr1,arr2);
-                         if (result=true){
+                         if (result==true){
                              System.out.println("Given Strings are Anagram");
                          }
                          else{

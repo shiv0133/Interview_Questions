@@ -1,12 +1,15 @@
-package StringRelatedPrograms;
+package StringCountingRelated;
 
 import java.util.Scanner;
 
 public class CountCharString {
     public static void main(String[] args) {
+
+        // here we count the  number of particular element is hoe much time...........
+
         Scanner sc=new Scanner(System.in);
         System.out.println("Please enter character for counting::");
-        char a=sc.next().charAt(0);
+        char a=sc.next().charAt(0);  //
         System.out.println("input::"+a);
         int count=0;
         String str="shivendrassssas";

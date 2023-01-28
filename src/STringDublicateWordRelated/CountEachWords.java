@@ -1,4 +1,4 @@
-package StringRelatedPrograms;
+package STringDublicateWordRelated;
 
 import java.util.HashMap;
 import java.util.Iterator;

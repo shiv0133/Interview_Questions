@@ -1,4 +1,4 @@
-package StringRelatedPrograms;
+package StringCharDublicateRelatedPrograms;
 
 public class LargestSmallestWord {
     public static void main(String[] args) {
