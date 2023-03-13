@@ -1,5 +1,7 @@
 package NumberRelatedProgram;
 
+import java.util.Scanner;
+
 public class SwapTwoNumber {
     public static void main(String[] args) {
         int a=50;   //a=5 in o/p

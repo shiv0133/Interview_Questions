@@ -1,12 +1,12 @@
 package Object_Creation_Java;
 
-public class Emplyoee implements Cloneable{
+public class Emplyoee_Clone implements Cloneable{
 
     String name;
     String city;
     int age;
 
-    public Emplyoee(String name, String city, int age) {
+    public Emplyoee_Clone(String name, String city, int age) {
         this.name = name;
         this.city = city;
         this.age = age;

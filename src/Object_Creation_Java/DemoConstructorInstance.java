@@ -11,10 +11,13 @@ public class DemoConstructorInstance implements Cloneable {
     public static void main(String[] args) {
         try {
             Constructor<DemoConstructorInstance> obj = DemoConstructorInstance.class.getConstructor();
+
             DemoConstructorInstance obj1= obj.newInstance();
+
             System.out.println(obj1.str);
 
            DemoConstructorInstance obj2= (DemoConstructorInstance) obj1.clone();
+
             System.out.println(obj2.str1);
 
         } catch (Exception e) {
